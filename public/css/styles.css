@@ -1,0 +1,222 @@
+/****************************TAG SELECTORS*******************************/
+
+
+hr {
+  background-color: #11ffee00;
+  border-width: 5px;
+  border-color: black;
+  border-style: dashed none none;
+  width: 3%;
+}
+Body{
+  background-color: #222831;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #f7f7f7;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  color: #f7f7f7;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+
+  color: #f7f7f7;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+
+  color: #f7f7f7;
+
+}
+
+h4 {
+  font-family: 'Rajdhani', sans-serif;
+  color: #f7f7f7;
+
+}
+
+h5 {
+  font-family: 'Rajdhani', sans-serif;
+  color: #f7f7f7;
+
+}
+
+p {
+  color: #f7f7f7;
+}
+tfoot {
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+a {
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+img {
+  border-radius: 50%;
+}
+
+/****************************CLASS SELECTORS*******************************/
+
+.otagRed{
+color: #b50000
+
+}
+
+.otagRed:hover{
+  color: #820000
+}
+.header {
+  color:#b50000;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.instructions {
+  text-align: center;
+}
+
+.tip_table {
+  align-items: center;
+}
+
+.border {
+  border-bottom: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+  background-color: #343a40;
+
+}
+
+.footer {
+  height: 50px;
+  padding-top: 10px;
+}
+
+.newLine {
+  padding-left: 0px;
+}
+
+.pro-title{
+font-weight: bold;
+}
+.pro-detail{
+
+}
+
+.admin-profile{
+  text-align: left;
+}
+
+.btn-twitch{
+  background-color: #6441a5;
+  outline-color:  #6441a5;
+}
+
+
+.btn-twitch:hover{
+  background-color: #503484;
+}
+
+
+.btn-outline-otag{
+  color:#b50000;
+  border-color:#b50000
+}
+
+.btn-outline-otag:hover{
+  color:#fff;
+  background-color:#b50000;
+  border-color:#b50000
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.footText{
+  color: white;
+  border-color: white;
+}
+
+.leftAlighn {
+  text-align: left;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.djPage {
+  background-color: #343a40;
+}
+
+.djText {
+  color: #b50000;
+  font-weight: bold;
+}
+
+.carousel-control-prev-icon {
+  color: black;
+
+}
+/****************************ID SELECTORS*******************************/
+
+#title {
+  background-color: #222831
+}
+
+#instructions {
+  background-color: #343a40;
+
+}
+
+#timer {
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* bootstraps */
+.carousel .item {
+  height: 300px;
+}
+
+.card {
+  background-color: #2e3439;
+
+}
+
+.item .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
